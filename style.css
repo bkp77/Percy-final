@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'Mukta';
+  src: url(Mukta-Regular.ttf);
+}
+@font-face {
+  font-family: 'Mukta Light';
+  src: url(Mukta-Light.ttf);
+}
+@font-face {
+  font-family: 'Cinzel Bold';
+  src: url(Cinzel-Bold.ttf);
+}
+@font-face {
+  font-family: 'Cinzel Medium';
+  src: url(Cinzel-Medium.ttf);
+}
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color: rgb(48, 77, 107);
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+/* Movie background */
+.movie-background {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 80px;
+  background-image: url('https://coolwallpapers.me/picsup/5652330-percy-jackson-olympians-lightning-thief-wallpapers.jpg');
+  background-position:top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Cover */
+.movie-background .container .cover img {
+  width: 250px;
+}
+/* Content on movie background */
+.movie-background .container {
+  background-color:rgb(48, 77, 107, 0.6);
+  padding: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  right: 100px;
+  display: flex;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 600px;
+}
+/* Play */
+.play_circle img {
+  width: 100px;
+}
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: #fcfcfc;
+}
+
+/* Main character */
+.main-character {
+  display: flex;
+  width: 1040px;
+  line-height: 40px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.main-character img, 
+.director img{
+  border-radius: 5%;
+}
+.main-character p, 
+.director p{
+  max-width: 250px;
+}
+/* Director */
+.director {
+  display: flex;
+  flex-direction: wrap;
+  width: 1040px;
+  line-height: 40px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  color: rgb(255, 255, 255);
+}
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 35px;
+}
+
+/* Rating title */
+.rating h4 {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+}
+
+.rating .big {
+  color: rgb(171, 217, 234);
+  font-size: 26px;
+}
+
+/* Typography */
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Cinzel Bold';
+}
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Cinzel Medium';
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Mukta';
+  }
+p {
+  color: rgb(255, 255, 255);
+  font-family: 'Mukta Light';
+  line-height: 20px;
+  max-width: 600px;
+}
+.year {
+  color:  rgb(171, 217, 234);
+}
+.Percy-Jackson{
+  padding-left: 30px;
+  padding-top: 35px;
+}
+.Chris{
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.Cover {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.play_circle {
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  width: 100px !important;
+}
+/* author */
+.author {
+  height: 266px;
+  width: 100%;
+  position: relative;
+  background-color:   rgb(67, 106, 149);
+}
+/* Author */
+.author {
+  display: flex;
+  width: 100%;
+  line-height: 40px;
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+.Rick{
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.author img{
+  border-radius: 5%;
+  margin-left: 165px;
+}
+.author p{
+  max-width: 250px;
+}
+/* books */
+.books {
+  max-width: 800px;
+}
+.books .container{
+  width: 800px;
+  position: relative;
+  overflow: auto;
+  top: 0;
+  left: 0;
+}
+.scroll {
+  position: absolute;
+  top: 70px;
+  left: 350px;
+  width: 100px !important;
+}
+/* footer */
+.footer {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  background-color:   rgb(67, 106, 149);
+}
